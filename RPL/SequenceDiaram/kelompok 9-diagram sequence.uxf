@@ -388,7 +388,7 @@ dashboard</panel_attributes>
     <panel_attributes>lt=&lt;-
 
 
-exit dari dashboard
+Logout dari dashboard
 dan login kembali</panel_attributes>
     <additional_attributes>10.0;20.0;200.0;20.0</additional_attributes>
   </element>
@@ -415,7 +415,7 @@ bg=green</panel_attributes>
     <panel_attributes>lt=&lt;-
 
 
-logout aplikasi</panel_attributes>
+keluar aplikasi</panel_attributes>
     <additional_attributes>10.0;20.0;110.0;20.0</additional_attributes>
   </element>
 </diagram>
