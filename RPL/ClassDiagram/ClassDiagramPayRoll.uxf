@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>510</y>
+      <w>126</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>Potongan
+--
+#idPegawai;
+#jenisPotongan;
+
+--
+#totalPotongan();
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>294</x>
+      <y>438</y>
+      <w>126</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>SlipGaji
+--
+#idPegawai;
+(...)
+
+--
+#date();
+#totalGajiPokok();
+#totalGajiMengajar();
+#totalTunjangan();
+#totalPotongan();
+#totalGaji();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>816</x>
+      <y>288</y>
+      <w>126</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>Download
+--
+#idPegawai
+(...)
+--
+#profile();
+#slipGaji();
+#download();
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>78</y>
+      <w>126</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>Tunjangan
+--
+#idPegawai;
+(...)
+
+--
+#tunjanganAnak();
+#tunjanganRumah();
+#tunjanganKeluarga();
+#tunjanganKehadiran();
+#totalTunjangan();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>360</y>
+      <w>126</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>GajiMengajar
+--
+#idPegawai;
+#jumlah_jam_mengajar;
+#jumlah_rupiah_jam;
+(...)
+
+--
+#totalGajiMengajar();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>624</x>
+      <y>210</y>
+      <w>126</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>GajiPokok
+--
+#idPegawai;
+(...)
+
+--
+#totalGajiPoko();
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>288</x>
+      <y>96</y>
+      <w>126</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>
+Karyawan
+
+--
+#idPegawai;
+(...)
+
+--
+#profile();</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>414</x>
+      <y>126</y>
+      <w>222</w>
+      <h>456</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;610.0;120.0;610.0;120.0;320.0;280.0;320.0;280.0;500.0;350.0;500.0;280.0;500.0;280.0;740.0;350.0;740.0;280.0;740.0;280.0;220.0;350.0;220.0;280.0;220.0;280.0;10.0;350.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>174</x>
+      <y>150</y>
+      <w>132</w>
+      <h>366</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;270.0;80.0;270.0;80.0;590.0;200.0;590.0;80.0;590.0;80.0;10.0;190.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>744</x>
+      <y>126</y>
+      <w>84</w>
+      <h>480</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;70.0;10.0;70.0;470.0;70.0;220.0;10.0;220.0;70.0;220.0;70.0;470.0;10.0;470.0;70.0;470.0;70.0;780.0;10.0;780.0;70.0;780.0;70.0;360.0;120.0;360.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>54</x>
+      <y>264</y>
+      <w>126</w>
+      <h>114</h>
+    </coordinates>
+    <panel_attributes>
+Log In
+
+--
+#idPegawai;
+-password;
+#email:
+
+--
+#login();
+#lupaPassword();
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
